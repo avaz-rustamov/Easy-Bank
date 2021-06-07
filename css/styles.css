@@ -1,3 +1,22 @@
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Regular.woff2") format("woff2"),
+      url("../fonts/PublicSans-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Thin.woff2") format("woff2"),
+      url("../fonts/PublicSans-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 html {
   box-sizing: border-box;
 }
@@ -10,12 +29,16 @@ html {
 
 
 body {
+  font-family: "Public Sans", "Arial", sans-serif;
 
 }
 .container {
-  max-width: 1100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  max-width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+.site_header {
+  padding-top: 18px;
 }
