@@ -59,7 +59,7 @@ body {
 .main {
   background-image: url(../img/hero-phones-desktop.svg),url(../img/hero-bg-desktop.svg);
   background-size: contain;
-  background-position:  calc(50% + 300px) -190px, calc(50% + 300px) -190px;
+  background-position:  calc(50% + 300px) -130px, calc(50% + 300px) -190px;
   background-repeat: no-repeat;
   height: 800px;
 
