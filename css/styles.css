@@ -57,12 +57,12 @@ body {
   background-color: #fff;
 }
 .site__header-logo {
-  margin-right: auto;
   padding-top: 33px;
   padding-bottom: 27px;
 }
 .site__header-main {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .sitenav__list {
