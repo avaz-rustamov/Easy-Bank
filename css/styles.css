@@ -30,6 +30,10 @@ html {
 
 body {
   font-family: "Public Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  background-color: #f2f2f2;
+  color: #9597A5;
 
 }
 .container {
@@ -40,5 +44,59 @@ body {
   margin-right: auto;
 }
 .site_header {
-  padding-top: 18px;
+  background-color: #fff;
+}
+.site__header-logo {
+  margin-right: auto;
+  padding-top: 33px;
+  padding-bottom: 27px;
+}
+.site__header-main {
+  display: flex;
+  align-items: center;
+}
+.sitenav__list {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  /* margin-right: auto; */
+  padding: 0;
+  list-style: none;
+}
+.sitenav__link {
+  /* padding-bottom: 27px;
+  padding-top: 32px; */
+}
+.sitenav__link:hover {
+  color: #2D314D;
+
+}
+.sitenav__list-item {
+  border: 3px solid transparent;
+  margin-right: 30px;
+  padding-bottom: 27px;
+  padding-top: 32px;
+}
+.sitenav__list-item:hover {
+  margin-right: 30px;
+  border-bottom: 3px solid #333;
+}
+
+.sitenav__link {
+  text-decoration: none;
+  color: #9597A5;
+
+}
+.button {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 8px 32px;
+  color: #fff;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+}
+.button:hover {
+  opacity: 0.4;
 }
