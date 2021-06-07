@@ -23,7 +23,10 @@
   font-style: normal;
   font-display: swap;
 }
+:root {
+  --heading-black: color: #2D314D;;
 
+}
 
 
 
@@ -52,6 +55,14 @@ body {
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+}
+.main {
+  background-image: url(../img/hero-phones-desktop.svg),url(../img/hero-bg-desktop.svg);
+  background-size: contain;
+  background-position:  calc(50% + 300px) -190px, calc(50% + 300px) -190px;
+  background-repeat: no-repeat;
+  height: 800px;
+
 }
 .site_header {
   background-color: #fff;
@@ -108,4 +119,21 @@ body {
 }
 .button:hover {
   opacity: 0.4;
+}
+.site__hero-content {
+  width: 447px;
+  padding-top: 170px;
+}
+.site__hero-heading {
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: var(--heading-black);
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+.site__hero-text {
+  margin-top: 0;
+  margin-bottom: 36px;
 }
