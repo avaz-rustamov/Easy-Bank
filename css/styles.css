@@ -15,6 +15,16 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: "Public Sans";
+  src: url("../fonts/PublicSans-Medium.woff2") format("woff2"),
+      url("../fonts/PublicSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 
 
 html {
@@ -69,7 +79,6 @@ body {
 }
 .sitenav__link:hover {
   color: #2D314D;
-
 }
 .sitenav__list-item {
   border: 3px solid transparent;
