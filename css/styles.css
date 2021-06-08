@@ -199,50 +199,109 @@ body {
   line-height: 28px;
   letter-spacing: -0.428571px;
 }
+
 .feature__item-headeing::before {
   content: "";
   background-image: url(../img/card.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 72px;
-  height:72px;
+  height: 72px;
   display: block;
   margin-bottom: 40px;
 }
+
 .dollar::before {
   content: "";
   background-image: url(../img/dollor.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 72px;
-  height:72px;
+  height: 72px;
   display: block;
   margin-bottom: 40px;
 }
+
 .people::before {
   content: "";
   background-image: url(../img/people.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 72px;
-  height:72px;
+  height: 72px;
   display: block;
   margin-bottom: 40px;
 }
+
 .it::before {
   content: "";
   background-image: url(../img/it.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 72px;
-  height:72px;
+  height: 72px;
   display: block;
   margin-bottom: 40px;
 }
 
+.article__heading {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+}
 
 .feature__item-text {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: -0.25px;
 }
+
+.article__list {
+  display: flex;
+  margin: 0;
+  margin-left: -30px;
+  padding-left: 0;
+  padding-bottom: 87px;
+  list-style: none;
+}
+
+.ariticle__list-item {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.article__list-img {
+  margin-left: 30px;
+}
+
+
+.article_content {
+  /* padding: 24px; */
+  width: 231px;
+  padding: 24px;
+}
+
+.article__list-author {
+  text-transform: capitalize;
+  font-size: 10px;
+  line-height: 18px;
+  letter-spacing: -0.15625px;
+}
+.article__list-heading {
+  font-weight: 100;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.285714px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ariticle__list-text {
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: -0.203125px;
+  color: #9597A5;
+}
+/* .footer {
+  background-color: #2D314D;
+} */
