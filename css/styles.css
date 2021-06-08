@@ -304,4 +304,9 @@ body {
 }
 .site__footer {
   background-color: #2D314D;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.link {
+  background-color: #fff;
 }
