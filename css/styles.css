@@ -26,12 +26,8 @@
 }
 
 :root {
-  --heading-black: #2D314D;
-  ;
-
+  --heading-black: #2d314d;
 }
-
-
 
 html {
   box-sizing: border-box;
@@ -43,15 +39,13 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   font-family: "Public Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 28px;
   font-weight: 400;
   background-color: #f2f2f2;
-  color: #9597A5;
-
+  color: #9597a5;
 }
 
 .container {
@@ -63,12 +57,12 @@ body {
 }
 
 .main {
-  background-image: url(../img/hero-phones-desktop.svg), url(../img/hero-bg-desktop.svg);
+  background-image: url(../img/hero-phones-desktop.svg),
+    url(../img/hero-bg-desktop.svg);
   background-size: contain;
   background-position: calc(50% + 300px) -130px, calc(50% + 300px) -190px;
   background-repeat: no-repeat;
   height: 800px;
-
 }
 
 .site_header {
@@ -103,16 +97,16 @@ body {
 
 .sitenav__list-item:hover {
   margin-right: 30px;
-  border-bottom: 3px solid #333;
+  border-bottom: 3px solid #33d35e;
 }
 
 .sitenav__link {
   text-decoration: none;
-  color: #9597A5;
+  color: #9597a5;
 }
 
 .sitenav__link:hover {
-  color: #2D314D;
+  color: #2d314d;
 }
 
 .button {
@@ -122,7 +116,7 @@ body {
   line-height: 28px;
   padding: 8px 32px;
   color: #fff;
-  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  background: linear-gradient(135deg, #33d35e 0%, #2ab6d9 99.58%);
   border-radius: 22px;
 }
 
@@ -157,7 +151,7 @@ body {
 .feature {
   padding-top: 95px;
   padding-bottom: 95px;
-  background-color: #F4F5F7;
+  background-color: #f4f5f7;
 }
 
 .feature__heading {
@@ -275,7 +269,6 @@ body {
   margin-left: 30px;
 }
 
-
 .article_content {
   /* padding: 24px; */
   width: 231px;
@@ -300,10 +293,10 @@ body {
   font-size: 13px;
   line-height: 18px;
   letter-spacing: -0.203125px;
-  color: #9597A5;
+  color: #9597a5;
 }
 .site__footer {
-  background-color: #2D314D;
+  background-color: #2d314d;
   padding-top: 48px;
   padding-bottom: 48px;
 }
